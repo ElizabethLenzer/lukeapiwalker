@@ -25,7 +25,6 @@ const Result = (props) => {
             {ResponseError ?
                 <>
                     <h2 className="display-3 text-center mt-3">"These aren't the droids you're looking for" </h2>
-                    <img className="img-fluid" src={`${process.env.PUBLIC_URL}/Assets/obi.jpg`} alt="logo" />
                 </>
                 :
 
