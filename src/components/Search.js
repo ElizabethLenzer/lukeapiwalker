@@ -1,4 +1,4 @@
-import { navigate } from "react-router";
+import { Redirect } from 'react-router-dom';
 import React from 'react'
 
 const Search = (props) => {
@@ -7,7 +7,7 @@ const Search = (props) => {
 
     const OnSubmitHandler = (e) => {
         e.preventDefault();
-        navigate(`/${SearchInfo.category}/${SearchInfo.id}`);
+        Redirect(`/${SearchInfo.category}/${SearchInfo.id}`);
     }
 
     const OnChangeHandler = (e) => {

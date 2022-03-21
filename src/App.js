@@ -2,9 +2,7 @@ import './App.css';
 import React, {useState} from 'react'
 import Search from './components/Search'
 import Result from './components/Result'
-import {
-  Router
-} from "react-router-dom";
+import { Router } from "react-router-dom";
 
 function App() {
 
